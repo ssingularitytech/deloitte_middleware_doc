@@ -9,9 +9,9 @@ There are a total of 3 REST API endpoints
 
 ## REST APIs :
 
-### Courses <img src="https://img.shields.io/static/v1?label=&message=GET&color=green">
+### Courses <img src="https://img.shields.io/static/v1?label=&message=GET&color=green"> <img src="https://img.shields.io/static/v1?label=&message=POST&color=yellow">
 - endpoint: <pre>/api/Course</pre>
-- method: GET
+- method: POST
 - parameters:
 <table>
   <tr>
@@ -36,6 +36,27 @@ There are a total of 3 REST API endpoints
   <td>String</td>
   <td>True</td>
   <td>Course TITLE is the name of the course present in the DEP.</td>
+  </tr>
+
+  <tr>
+  <td><pre>access-token</pre></td>
+  <td>Headers</td>
+  <td>String</td>
+  <td>True</td>
+  <td>RSA encrypted API key for authentication. The access-token shall be provided to you. Don't share the access-token without supervision.</td>
+  </tr>
+</table>
+
+- endpoint: <pre>/api/Course</pre>
+- method: GET
+- parameters:
+<table>
+  <tr>
+  <th>Name</th>
+  <th>In</th>
+  <th>Type</th>
+  <th>Required</th>
+  <th>Description</th>
   </tr>
 
   <tr>
