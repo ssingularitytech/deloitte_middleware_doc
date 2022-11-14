@@ -1,6 +1,6 @@
 # Deloitte Middleware Application Documentation
 
-The following documentation is a complete guide for installing to testing the Middleware Application which connects the Global DEP to an REST API for the consumption of the data.
+The following documentation is a complete guide from installing to testing the Middleware Application which connects to the external vendors with Global DEP using REST API for the consumption of the data.
 
 ## Tech Stack
 - ASP NET CORE ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
