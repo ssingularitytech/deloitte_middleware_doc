@@ -7,157 +7,68 @@ Open server manager: (Windows → search “Server Manager”)
 1. Click on Manage
 
 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
+<img width="960" alt="click on manage" src="https://user-images.githubusercontent.com/56874272/201602505-97bb2c5c-c442-4836-98d7-5cda78c962a0.png">
 
 
 
 
 2. Select Add Roles and Features
 
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
-
-
+<img width="960" alt="2022-10-01 (2)" src="https://user-images.githubusercontent.com/56874272/201602733-5bf6717d-783c-4377-b44e-a8a330eeb655.png">
 
 
 3. Click Next
 
-
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
-
+<img width="960" alt="2022-10-01 (3)" src="https://user-images.githubusercontent.com/56874272/201602865-e6906f67-f310-4c1b-8e6b-a7107a372d5e.png">
 
 
 
 4. Select “Role-Based or feature-based installation” and click Next
 
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
-
+<img width="960" alt="2022-10-01 (4)" src="https://user-images.githubusercontent.com/56874272/201602940-170461bb-2d68-482e-8497-1b2217660566.png">
 
 
 
 5. Select the server and proceed.
 
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.png "image_tooltip")
-
-
+<img width="960" alt="2022-10-01 (5)" src="https://user-images.githubusercontent.com/56874272/201603105-76117fe2-ed69-4ff0-8c8b-c1f6f8bf4335.png">
 
 
 6. Select “Web Server (IIS)” in server roles and proceed further.
 
-
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
-
-
+<img width="960" alt="2022-10-01 (8)" src="https://user-images.githubusercontent.com/56874272/201603341-65f93ef9-3973-4e2b-86c5-6c93a11d922d.png">
 
 
 7. Click on “Add Features”
 
-
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image7.png "image_tooltip")
-
-
-
+<img width="960" alt="2022-10-01 (9)" src="https://user-images.githubusercontent.com/56874272/201603476-6771f296-02b2-4584-bb48-45c7c094c183.png">
 
 8. In Features select “IIS Hostable Web Core”
 
-
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image8.png "image_tooltip")
-
-
-
+<img width="960" alt="2022-10-01 (7)" src="https://user-images.githubusercontent.com/56874272/201603601-ae263e51-5a1e-4453-9370-b13afc41cf8c.png">
 
 9. Click on Next
 
-
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image9.png "image_tooltip")
-
-
+<img width="960" alt="2022-10-01 (11)" src="https://user-images.githubusercontent.com/56874272/201603798-4a3e4fa9-31c5-467b-9df9-5d1900bfa631.png">
 
 
 10. Click on Install.
 
-
-
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image10.png "image_tooltip")
-
-
+<img width="960" alt="2022-10-01 (12)" src="https://user-images.githubusercontent.com/56874272/201603849-0ec6eda5-60de-4ebc-9fcd-0b137d15e885.png">
 
 
 11. After Installation is complete click “Close”.
 
-
-
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image11.png "image_tooltip")
-
-
+<img width="960" alt="2022-10-01 (13)" src="https://user-images.githubusercontent.com/56874272/201603942-c4b84c8f-b778-4ecb-b3f8-e7c24b0b243b.png">
 
 
 12. Open Powershell as administrator and run the following command 
 
-“Install-WindowsFeature -name Web-Server -IncludeManagementTools”
-
-
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image12.png "image_tooltip")
-
-
-
+<img width="960" alt="2022-10-01 (27)" src="https://user-images.githubusercontent.com/56874272/201604060-9f465f1a-fbcc-4cfb-a405-3d014cbd7af7.png">
 
 13. After following all these steps visit the public DNS or public IP address
 
-
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image13.png "image_tooltip")
+<img width="960" alt="2022-10-01 (29)" src="https://user-images.githubusercontent.com/56874272/201604109-7bb32d49-9e74-4a18-b979-871ed5d563a1.png">
 
 
 IIS is installed successfully on the windows server.
