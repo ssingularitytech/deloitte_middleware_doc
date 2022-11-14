@@ -30,7 +30,7 @@ For installation of the Middleware Application please make sure the prerequisiti
 After installation, Database setup will be completed.
 
 ### Step 2: Database Guide
-For understanding the structure please refer to the complete guide.
+For understanding the structure of Database please refer to the complete guide.
 
 After Step 1. Middleware Application is ready to serve to the vendor.
 
