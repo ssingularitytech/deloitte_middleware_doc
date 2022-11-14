@@ -335,7 +335,9 @@ You’ll get the result as given below.
 
 Now copy the whole project directory and paste it into the following location:
 
+```
 C:\\inetpub\\wwwroot\
+```
 
 For e.g.
 
