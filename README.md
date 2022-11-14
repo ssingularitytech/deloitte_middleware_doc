@@ -29,7 +29,7 @@ For installation of the Middleware Application please make sure the prerequisiti
 
 After installation, Database setup will be completed.
 
-### Database Setup
+### Database Guide
 For understanding the structure please refer to the complete guide.
 
 After all this the middleware application is ready to serve to the vendor.
