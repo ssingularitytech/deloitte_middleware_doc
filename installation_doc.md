@@ -114,6 +114,8 @@ To create DB:
 
 Run the following query to create  Main DB:
 
+```sql
+
 create database Main_DB;
 
 use Main_DB;
@@ -170,13 +172,16 @@ insert into dbo.Courses values
 
 insert into dbo.Learners values('1', 'abc@test.com'),('2', 'test@test.com'),('3', 'rishabh@ssingularity.co.in'),('4', 'admin@deloitte.com'),('5', 'ceo@quodeck.com')
 
+```
+
 **Once the installation of dotnet, SQL server & creation of the database is done and successfully verified Install AWS CLI on the instance to run AWS commands on the server itself**
 
 
 
 1. Open Windows Powershell as administrator and enter the following command:
-
-            “msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi”
+```powershell
+msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
+```
 
 2. To verify the installation enter “aws --version” in the PowerShell window.
 
@@ -191,30 +196,24 @@ Before following this step you would need to get the AWS IAM user Access Key ID 
 
 
 1. Open Windows PowerShell as administrator.
-2. Enter the following command: “aws configure”.
+2. Enter the following command:
+```powershell
+aws configure
+```
 3. AWS Access Key ID will be prompted, enter your IAM Access Key ID and press ENTER.
 4. AWS Secret Access Key will be prompted, enter your IAM Secret Access Key and press ENTER.
 5. For the rest of the options just press ENTER.
 
     Here’s an example of how aws credentials will be asked.
 
-
-    
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+![image](https://user-images.githubusercontent.com/56874272/201606256-602819ae-a05a-4c69-8a63-994c98eb45e8.png)
 
 
-![alt_text](images/image14.png "image_tooltip")
+After this, we are done with the setup and configurations.
 
+The next steps are to encrypt and store the secrets in a keys.json file.
 
-
-    After this, we are done with the setup and configurations.
-
-
-    The next steps are to encrypt and store the secrets in a keys.json file.
-
-
-    **The following secrets shall be encrypted:**
+**The following secrets shall be encrypted:**
 
 * Main_Db
 * DEP_STRING
@@ -228,8 +227,8 @@ Before following this step you would need to get the AWS IAM user Access Key ID 
 
 To get the Main DB connection string use the following query in ssms: 
 
-
-    use <PUT_YOUR_DATABASE_NAME_HERE>;
+```sql
+ use <PUT_YOUR_DATABASE_NAME_HERE>;
 
 
     select
@@ -266,12 +265,15 @@ To get the Main DB connection string use the following query in ssms:
 
 
     where name = suser_name()
+```
 
 After you get all the plaintext secrets use the aws kms tool to encrypt all the secrets and store them in the keys.json file.
 
 Command to encrypt:
 
+```powershell
 aws kms encrypt --cli-binary-format raw-in-base64-out --key-id "<KEY_ID>" --plaintext "<SECRET_TO_ENCRYPT>"
+```
 
 SECRET_TO_ENCRYPT - Plain secrets needed to be encrypted.
 
@@ -290,12 +292,13 @@ Store the encrypted secrets in the keys.json file now.
 After this, you need to store the arn key in the secrets.json file.
 
 Store the arn as follows:
-
+```
 {
 
 	“aws_key_id”: “<PUT_YOUR_ARN_HERE>”
 
 }
+```
 
 Deploy the project in the server:
 
