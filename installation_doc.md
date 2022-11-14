@@ -318,18 +318,19 @@ Open Windows PowerShell and go to the directory using the copied location.
 
 For e.g.
 
-cd “C://<The correct location you’ve copied>”
+```powershell
+cd C://<The correct location you’ve copied>
+```
 
 Paste the following command:
 
+```powershell
 dotnet publish --configuration Release
+```
 
 You’ll get the result as given below.
 
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image15.png "image_tooltip")
+<img width="960" alt="2022-10-01 (40)" src="https://user-images.githubusercontent.com/56874272/201608907-1d896f03-97e5-43c1-b194-ef4dab9e2499.png">
 
 
 Now copy the whole project directory and paste it into the following location:
@@ -338,64 +339,19 @@ C:\\inetpub\\wwwroot\
 
 For e.g.
 
-
-
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image16.png "image_tooltip")
+<img width="960" alt="2022-10-01 (43)" src="https://user-images.githubusercontent.com/56874272/201608964-657472e1-3cee-4689-9313-5c61b7284d41.png">
 
 
 Press the Windows key + R and type inetmgr to open IIS management tools.
 
 Follow the given Images as follows:
 
-
-
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image17.png "image_tooltip")
-
-
-
-
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image18.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image18.png "image_tooltip")
-
-
-
-
-<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image19.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image19.png "image_tooltip")
-
-
-
-
-<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image20.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image20.png "image_tooltip")
-
-
-
-
-<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image21.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image21.png "image_tooltip")
-
-
-
-
-<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image22.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image22.png "image_tooltip")
+<img width="960" alt="2022-10-01 (44)" src="https://user-images.githubusercontent.com/56874272/201609160-7244354a-e261-4892-8f3e-9a2e74d3cae6.png">
+<img width="960" alt="2022-10-01 (45)" src="https://user-images.githubusercontent.com/56874272/201609343-dac4bdab-50c5-4717-bffa-dafb02f73dac.png">
+<img width="960" alt="2022-10-01 (46)" src="https://user-images.githubusercontent.com/56874272/201609347-5cdddc16-419b-482f-9bb4-52497a5899f4.png">
+<img width="960" alt="2022-10-01 (47)" src="https://user-images.githubusercontent.com/56874272/201609325-d4ea4124-531b-40b7-bbc7-885400ad8294.png">
+<img width="960" alt="2022-10-01 (48)" src="https://user-images.githubusercontent.com/56874272/201609335-c8a60921-586b-4f52-8ae2-16ff6a5cdecb.png">
+<img width="960" alt="2022-10-01 (49)" src="https://user-images.githubusercontent.com/56874272/201609340-919d78ad-35e6-4641-b68f-d869776138ff.png">
 
 
 Click on Browse Website (http) and see if there are any errors.
