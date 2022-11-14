@@ -122,13 +122,11 @@ use Main_DB;
 
 create table dbo.Courses(Id int unique not null identity(1,1), COURSE_ID varchar(20) unique, COURSE_TITLE varchar(225));
 
-create table dbo.Learners(Id int unique not null identity(1,1), LEARNER_ID varchar(20) unique, LEARNER_EMAIL varchar(225) unique);
+create table dbo.Learners(Id int unique not null identity(1,1), LEARNER_ID varchar(20) unique, LEARNER_EMAIL varchar(225));
 
 create table dbo.CourseHistory(
 
 Id int unique not null identity(1,1), 
-
-COURSE_ID varchar(20), 
 
 LEARNER_ID varchar(20),
 
@@ -136,23 +134,21 @@ COURSE_TITLE varchar(225),
 
 LEARNER_EMAIL varchar(225),
 
-HOURS_SPENT int,
+DURATION_HOURS int,
 
-STATUS varchar(50),
+EVL_STATUS varchar(50),
 
 SCORE int,
 
 foreign key(LEARNER_ID) references dbo.Learners(LEARNER_ID),
 
-foreign key(COURSE_ID) references dbo.Courses(COURSE_ID),
-
 );
 
 	
 
-Run the above command.
+--Run the above command.
 
-To create dummy Data for testing:
+--To create dummy Data for testing:
 
 insert into dbo.Courses values
 
