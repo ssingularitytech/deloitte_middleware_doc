@@ -18,23 +18,23 @@ Prerequisities:
 - AWS KMS
 
 ## Process for consumption of Middleware Application
-- Installation
-- Database Setup
-- REST APIs Testing
+1. Installation
+2. Database Guide
+3. REST APIs Testing
 
-### Middleware Installation
+### Step 1. Middleware Installation
 For installation of the Middleware Application please refer to the complete ![guide](https://github.com/ssingularitytech/deloitte_middleware_doc/blob/main/installation_doc.md).
 
 For installation of the Middleware Application please make sure the prerequisities are arranged and has been setup.
 
 After installation, Database setup will be completed.
 
-### Database Guide
+### Step 2. Database Guide
 For understanding the structure please refer to the complete guide.
 
-After all this the middleware application is ready to serve to the vendor.
+After Step 1. middleware application is ready to serve to the vendor.
 
-### REST APIs Testing
+### Step 3. REST APIs Testing
 For testing the REST APIs please refer to the complete ![guide](https://github.com/ssingularitytech/deloitte_middleware_doc/blob/main/REST_API.md).
 
 After this the Middleware Application is ready to integrate :partying_face:
