@@ -30,7 +30,7 @@ For installation of the Middleware Application, please ensure the prerequisites 
 After installation, the database setup will be complete after installation.
 
 ### Step 2: Database Guide
-To understand the Database structure, please refer to the complete guide.
+To understand the Database structure, please refer to the complete ![guide](https://github.com/ssingularitytech/deloitte_middleware_doc/blob/main/Database_doc.md).
 
 After Step 1. Middleware Application is ready to serve the vendor.
 
