@@ -99,17 +99,25 @@ Please use the following trigger code to update the Learners Id in the Course Hi
 MS SQL Server:
 
 ```sql
-create trigger  CourseHistoryInsert
-after INSERT
-on
-CourseHistory
-for each row
-set CourseHistory.LEARNER_ID = SELECT LEARNER_ID FROM dbo.Learners WHERE LEARNER_EMAIL = CourseHistory.LEARNER_EMAIL;
+CREATE TRIGGER CourseHistoryInsert
+ON CourseHistory
+AFTER INSERT
+AS
+BEGIN
+    UPDATE ch
+    SET ch.LEARNER_ID = l.LEARNER_ID
+    FROM CourseHistory ch
+    INNER JOIN dbo.Learners l ON ch.LEARNER_EMAIL = l.LEARNER_EMAIL;
+END;
 
-create trigger  CourseHistoryUpdate
-after UPDATE
-on
-CourseHistory
-for each row
-set CourseHistory.LEARNER_ID = SELECT LEARNER_ID FROM dbo.Learners WHERE LEARNER_EMAIL = CourseHistory.LEARNER_EMAIL;
+CREATE TRIGGER CourseHistoryUpdate
+ON CourseHistory
+AFTER UPDATE
+AS
+BEGIN
+    UPDATE ch
+    SET ch.LEARNER_ID = l.LEARNER_ID
+    FROM CourseHistory ch
+    INNER JOIN dbo.Learners l ON ch.LEARNER_EMAIL = l.LEARNER_EMAIL;
+END;
 ```
